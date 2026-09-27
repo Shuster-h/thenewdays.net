@@ -87,12 +87,8 @@ td {
     line-height: 1.4666;
 }
 
-.details {
+.extra {
     color: #888;
-}
-
-.details::after {
-    content: '.';
 }
 
 summary {

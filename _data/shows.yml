@@ -6,7 +6,7 @@
 # location:
 #   en: English name of the venue's location.
 #   ja: Japanese name of same.
-# details: (Optional) Extra description; e.g., "Acoustic set."
+# extra: (Optional) Extra description; e.g., "Acoustic set."
 
 - date: 2026-10-05
   show_url: 'https://navey-floor.com/event/2026-10-5/'
