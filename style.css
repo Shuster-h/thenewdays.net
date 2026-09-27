@@ -94,7 +94,7 @@ td {
 summary {
     color: #888;
     cursor: pointer;
-    font: 2rem/1.2 var(--sans-serif);
+    font: 75%/1.2 var(--sans-serif);
     font-variant-east-asian: proportional-width;
     list-style-position: outside;
 }
