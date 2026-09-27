@@ -103,6 +103,10 @@ summary span {
     display: block;
 }
 
+summary .bitext-separator {
+    display: none;
+}
+
 ::details-content {
     margin-top: 0.5em;
 }

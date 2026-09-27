@@ -2,6 +2,6 @@
 {% capture formatted_date %}{% include show/date.html date=include.show.date %}{% endcapture -%}
 <td class="date">{% include optional_link.html href=include.show.show_url content=formatted_date %}</td>
 <td class="venue">{% include optional_link.html href=include.show.venue_url content=include.show.venue %}</td>
-<td class="location">{{ include.show.location.en }}・<span lang="ja">{{ include.show.location.ja }}</span></td>
+<td class="location">{% include bitext.html en=include.show.location.en ja=include.show.location.ja %}</td>
 <td class="extra">{{ include.show.extra }}</td>
 </tr>

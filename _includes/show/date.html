@@ -1,3 +1,5 @@
 {% assign wday = include.date | date: '%w' | to_integer -%}
+{%- assign en = include.date | date: '%a' -%}
+{%- assign ja = site.data.ja_weekdays[wday] %}
 <strong>{{ include.date | date: '%-m/%-e' }}</strong>
-({{ include.date | date: '%a' }}・<span lang="ja">{{ site.data.ja_weekdays[wday] }}</span>)
+({% include bitext.html en=en ja=ja %})

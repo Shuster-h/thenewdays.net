@@ -35,8 +35,7 @@
 {% if site.data.shows.size > 2 -%}
 <details>
 <summary>
-<span>More shows…</span>
-<span lang="ja">もっと先のライブ…</span>
+{% include bitext.html en='More shows…' ja='もっと先のライブ…' %}
 </summary>
 <table>
 {% for show in site.data.shows offset: 2 -%}
